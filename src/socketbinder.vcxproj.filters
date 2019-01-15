@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8422d8d6-20d9-4fbe-916c-43bb32ee1672}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\socketbinder\socketbinder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\binder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\rbtree.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\osDynLibrary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\osProcessWin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\osThreadWin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\PipeStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\PipeOperationStream..cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\PipeServer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\PipeThread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\osExecuteWindroy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketbinder\osThreadUnix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\socketbinder\stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\targetver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\osDynLibrary.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\osProcess.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\osThread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\PipeStream.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\PipeOperationStream.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\PipeThread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\PipeServer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\base_io_stream.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\PipeProtocol.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\osExecuteWindroy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\osThreadUnix.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\binder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketbinder\osLock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+﻿  port.cc
+  vlog_is_on.cc
+  utilities.cc
+  raw_logging.cc
+  logging.cc
+  Generating Code...
+logging.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library E:\development\android_work\development\WinDevWrok\socketbinder\Debug\libglog.lib and object E:\development\android_work\development\WinDevWrok\socketbinder\Debug\libglog.exp
+  libglog.vcxproj -> E:\development\android_work\development\WinDevWrok\socketbinder\Debug\libglog.dll
+  libglog.vcxproj -> E:\development\android_work\development\WinDevWrok\socketbinder\Debug\libglog.pdb (Full PDB)

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{307b2583-2c0a-4f47-99f0-2bf24fea8ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party">
+      <UniqueIdentifier>{cb990348-e204-40f0-ac3b-f89564e43b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party\Detours">
+      <UniqueIdentifier>{d14b6207-b1a1-4cc4-87fe-a2235b93a488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\linux">
+      <UniqueIdentifier>{af69724b-baf3-4640-a6a3-6f93ad13712e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libsbutils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\Detours\src\creatwth.cpp">
+      <Filter>src\third_party\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\Detours\src\detours.cpp">
+      <Filter>src\third_party\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\Detours\src\disasm.cpp">
+      <Filter>src\third_party\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\Detours\src\disolarm.cpp">
+      <Filter>src\third_party\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\Detours\src\disolarm64.cpp">
+      <Filter>src\third_party\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\Detours\src\disolia64.cpp">
+      <Filter>src\third_party\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\Detours\src\disolx64.cpp">
+      <Filter>src\third_party\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\Detours\src\disolx86.cpp">
+      <Filter>src\third_party\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\Detours\src\image.cpp">
+      <Filter>src\third_party\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\Detours\src\modules.cpp">
+      <Filter>src\third_party\Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="binder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbtree.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\third_party\Detours\src\detours.h">
+      <Filter>src\third_party\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\Detours\src\detver.h">
+      <Filter>src\third_party\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="binder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="linuxx\errno-base.h">
+      <Filter>src\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="linuxx\ioctl.h">
+      <Filter>src\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="linuxx\list.h">
+      <Filter>src\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="linuxx\rbtree.h">
+      <Filter>src\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="pthread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
