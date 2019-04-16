@@ -1,1 +1,1 @@
-<a href="https://www.paypal.me/dengtao" rel="nofollow"><img src="https://raw.githubusercontent.com/lz77win/socketbinder/master/src/src/include/logo.png" alt="Foo" data-canonical-src="https://raw.githubusercontent.com/lz77win/socketbinder/master/src/src/include/logo.png" style="max-width:100%;"></a>
+<a href="https://www.paypal.me/dengtao" rel="nofollow"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Foo" data-canonical-src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" style="max-width:100%;"></a>
